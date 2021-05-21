@@ -12,13 +12,13 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 proxy=None
 
 API_URL=None
-_token="1234:abcdabcd"
+_token="1234:abcdabcd" # BOT api token, unnrelated to pyrogram
 PORT = 8443
 logger = logging.getLogger(__name__)
 
 
-api_id = '1234'
-api_hash = "abcds"
+api_id = '1234' #for pyrogram telegram get hash and id here https://my.telegram.org/auth?to=apps
+api_hash = "abcds" 
 
 adpp=Client(lo.session, api_id, api_hash) 
 async def fetchIt(d,r):
