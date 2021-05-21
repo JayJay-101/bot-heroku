@@ -1,4 +1,4 @@
-## this script require You to obtain [String session]() first and save it in python file ```lo.py``` make this file and create a variable named   ```session``` and use it.
+## this script require You to obtain [String session](https://docs.pyrogram.org/topics/storage-engines?highlight=session%20string#session-strings) first and save it in python file ```lo.py``` make this file and create a variable named   ```session``` and use it.
 # Pyrogram-Heroku Bot
 A Simple Example explaining how to host pyrogram-made bots in Heroku.
 
